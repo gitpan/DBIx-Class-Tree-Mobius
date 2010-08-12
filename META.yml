@@ -1,5 +1,5 @@
 ---
-abstract: 'Manage trees of data using the nested intervals with continued fraction encoding'
+abstract: 'Manage trees of data using the Möbius encoding (nested intervals with continued fraction)'
 author:
   - 'Valentin D Guillois <vdg@polygonism.net>'
 build_requires: {}
@@ -17,4 +17,4 @@ requires:
   Digest: 0
   ExtUtils::MakeMaker: 0
   Test::More: 0
-version: 0.00001_03
+version: 0.00001_04

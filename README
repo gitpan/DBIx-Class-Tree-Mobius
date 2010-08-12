@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution DBIx-Class-Tree-Mobius,
-version 0.00001_03:
+version 0.00001_04:
 
-  Manage trees of data using the nested intervals with continued fraction encoding
+  Manage trees of data using the Möbius encoding (nested intervals with continued fraction)
 
 This software is copyright (c) 2010 by Valentin D Guillois.
 

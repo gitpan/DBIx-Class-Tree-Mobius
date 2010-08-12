@@ -5,17 +5,13 @@ Makefile.PL
 README
 dist.ini
 lib/DBIx/Class/Tree/Mobius.pm
-lib/DBIx/Class/Tree/Mobius.pm~
 t/01load.t
-t/01load.t~
 t/02run.t
-t/02run.t~
 t/03update.t
 t/author-critic.t
 t/lib/CdbiTreeTest.pm
 t/lib/CdbiTreeTest/Schema.pm
 t/lib/CdbiTreeTest/Schema/Test.pm
-t/lib/CdbiTreeTest/Schema/Test.pm~
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/var/Test.db
