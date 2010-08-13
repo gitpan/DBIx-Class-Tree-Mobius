@@ -14,4 +14,3 @@ t/lib/CdbiTreeTest/Schema.pm
 t/lib/CdbiTreeTest/Schema/Test.pm
 t/release-pod-coverage.t
 t/release-pod-syntax.t
-t/var/Test.db
