@@ -17,6 +17,7 @@ sub init_schema {
   mkdir($db_dir) unless -d $db_dir;
 
   my $dsn = "dbi:SQLite:dbname=${db_file}";
+  #my $dsn = "dbi:mysql:dbname=mobius";
   my $schema = CdbiTreeTest::Schema->connect($dsn);
   $schema->deploy();
   return $schema;

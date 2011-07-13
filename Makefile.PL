@@ -11,7 +11,9 @@ use ExtUtils::MakeMaker 6.31;
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'Manage trees of data using the Möbius encoding (nested intervals with continued fraction)',
   'AUTHOR' => 'Valentin D Guillois <vdg@polygonism.net>',
-  'BUILD_REQUIRES' => {},
+  'BUILD_REQUIRES' => {
+    'Test::More' => '0'
+  },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
   },
@@ -21,11 +23,12 @@ my %WriteMakefileArgs = (
   'NAME' => 'DBIx::Class::Tree::Mobius',
   'PREREQ_PM' => {
     'Carp' => '0',
+    'DBIx::Class' => '0',
     'Digest' => '0',
     'ExtUtils::MakeMaker' => '0',
-    'Test::More' => '0'
+    'Math::BigFloat' => '0'
   },
-  'VERSION' => '0.201',
+  'VERSION' => '0.210',
   'test' => {
     'TESTS' => 't/*.t'
   }
