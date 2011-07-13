@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution DBIx-Class-Tree-Mobius,
-version 0.210:
+version 0.211:
 
   Manage trees of data using the Möbius encoding (nested intervals with continued fraction)
 
