@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Manage trees of data using the Möbius encoding (nested intervals with continued fraction)',
   'AUTHOR' => 'Valentin D Guillois <vdg@polygonism.net>',
   'BUILD_REQUIRES' => {
+    'SQL::Translator' => '0.11006',
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
@@ -28,7 +29,7 @@ my %WriteMakefileArgs = (
     'ExtUtils::MakeMaker' => '0',
     'Math::BigFloat' => '0'
   },
-  'VERSION' => '0.211',
+  'VERSION' => '0.212',
   'test' => {
     'TESTS' => 't/*.t'
   }
